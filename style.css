@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url('/Images/img.webp');
+    background-repeat: no-repeat;
+}
+
+header img{
+    max-width: 50%;
+}
+
+header nav{
+    background-color: darkturquoise;
+    padding: 0.5rem;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
