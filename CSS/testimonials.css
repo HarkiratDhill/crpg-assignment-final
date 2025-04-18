@@ -5,6 +5,10 @@ figure{
     border-left: 5px solid navy;
 }
 
+figure figcaption{
+    font-weight: bold;
+}
+
 main p{
     text-align: center;
 }
