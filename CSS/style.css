@@ -3,7 +3,7 @@
     font-family: sans-serif;
     margin: 0;
 }
-
+/*Header CSS*/
 header{
     background-image: url('/Images/img.webp');
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ header nav ul li a{
  a:hover{
     color: orange;
 }
-
+/*Footer CSS*/
 footer{
     background-color: rgb(0, 206, 209);
     color: white;
@@ -55,12 +55,37 @@ h1{
 main{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
     margin: 10px;
+}
+/*Accommodations CSS*/
+.roombox{
+    background-color: aliceblue;
+    padding: 1rem;
+    max-width: 100% auto;
+    border-radius: 1rem;
+    box-shadow: 0.25rem 0.25rem 1rem;
+}
+
+.roombox img{
+    width: 100%;
+    max-width: 650px auto;
+    border-radius: 1rem;
 }
 
 #activities, #rooms, #guest{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
+}
+
+figure{
+    background-color: rgb(218, 232, 250);
+    padding: 2rem;
+    border-radius: 1rem 3rem;
+    border-left: 5px solid navy;
+}
+
+figure figcaption{
+    font-weight: bold;
 }
