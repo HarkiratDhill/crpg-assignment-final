@@ -10,7 +10,15 @@
 <body>
     <header>
         <img src="/Images/logo.svg" alt="White coloured Shangri La logo">
-      <p id="weather"></p>
+      <div id="mainweather">
+
+        <ul>
+            <li id="weather"></li>
+            <li id="feels"></li>
+            <li id="type"></li>
+            <li id="humidity"></li>
+        </ul>
+      </div>
         <nav>
             <ul>
                 <li><a href="/html/index.html">Homepage</a></li>
@@ -23,49 +31,60 @@
         </nav>
     </header>
     
-    <h1>Shangri La Beach Resort - Your Dream Getaway</h1>
-    
-    <h2>Escape to Paradise</h2>
-    <p>Indulge in luxury and breathtaking views at Shangri La Beach Resort.</p>
-    
+    <div class="summery">
+        <h1>Shangri La Beach Resort - Your Dream Getaway</h1>
+        <h2>Escape to Paradise</h2>
+        <p>Indulge in luxury and breathtaking views at Shangri La Beach Resort.</p>
+    </div>
     <main>
-        <article id="activities">
-            <h2>Experience Unforgettable Moments</h2>
-           
-            <h3>Private Beach Access</h3>
-            <p>Step onto our pristine, white-sand beach.</p>
-            
-            <h3>Infinity Pool</h3>
-            <p>Relax by our stunning oceanfront infinity pool.</p>
-            
-            <h3>World-Class Spa</h3>
-            <p>Rejuvenate your mind and body at our spa.</p>
-            
-            <h3>Exquisite Dining</h3>
-            <p>Savor culinary delights at our restaurants.</p>
-        </article>
-    
-        <article id="rooms">
-            <h2>Our Luxurious Accommodations</h2>
-            
-            <div class="roombox">
-                <img src="/Images/hotel-1191726_1920.webp" alt="">
-            <h3>Ocean View Deluxe Room</h3>
-            <p>Enjoy stunning ocean views from your private balcony.</p>
-            </div>
-            
-            <div class="roombox">
-                <img src="/Images/king.jpg" alt="">
-            <h3>Beachfront Suite</h3>
-            <p>Step directly onto the sand from your spacious suite.</p>
-            </div>
-            
-            <div class="roombox">
-                <img src="/Images/double.jpg" alt="">
-            <h3>Garden View Family Room</h3>
-            <p>Perfect for families, with ample space and garden views.</p>
-            </div>
-        </article>
+            <article id="activities">
+                <h2>Experience Unforgettable Moments</h2>
+               <div class="roombox">
+                <img src="/Images/white-sand-beach.webp" alt="a white sadn beach with the ocean on the right">
+                    <h3>Private Beach Access</h3>
+                    <p>Step onto our pristine, white-sand beach.</p>
+               </div>
+                
+               <div class="roombox">
+                <img src="/Images/couple.webp" alt="a couple with a larger body of water in the foreground">
+                    <h3>Infinity Pool</h3>
+                    <p>Relax by our stunning oceanfront infinity pool.</p>
+                </div>
+                
+                <div class="roombox">
+                    <img src="/Images/pexels-olly-3757657.webp" alt="woman having a face massage">
+                    <h3>World-Class Spa</h3>
+                    <p>Rejuvenate your mind and body at our spa.</p>
+                </div>
+                
+                <div class="roombox">
+                    <img src="/Images/Dining.webp" alt="dining table with glasses and a white cloth on the table">
+                    <h3>Exquisite Dining</h3>
+                    <p>Savor culinary delights at our restaurants.</p>
+                </div>
+            </article>
+        
+            <article id="rooms">
+                <h2>Our Luxurious Accommodations</h2>
+                
+                <div class="roombox">
+                    <img src="/Images/hotel-1191726_1920.webp" alt="white matress king sized bed">
+                <h3>Ocean View Deluxe Room</h3>
+                <p>Enjoy stunning ocean views from your private balcony.</p>
+                </div>
+                
+                <div class="roombox">
+                    <img src="/Images/king.jpg" alt="king sized bed taking up the whole image">
+                <h3>Beachfront Suite</h3>
+                <p>Step directly onto the sand from your spacious suite.</p>
+                </div>
+                
+                <div class="roombox">
+                    <img src="/Images/double.jpg" alt="two beds next to each other">
+                <h3>Garden View Family Room</h3>
+                <p>Perfect for families, with ample space and garden views.</p>
+                </div>
+            </article>
     
         <article id="guest">
             <h2>What Our Guests Are Saying</h2>

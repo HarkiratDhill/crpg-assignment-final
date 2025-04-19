@@ -11,7 +11,14 @@
 <body>
     <header>
         <img src="/Images/logo.svg" alt="White coloured Shangri La logo">
-      <p id="weather"></p>
+      <div id="mainweather">
+        <ul>
+            <li id="weather"></li>
+            <li id="feels"></li>
+            <li id="type"></li>
+            <li id="humidity"></li>
+        </ul>
+      </div>
         <nav>
             <ul>
                 <li><a href="/html/index.html">Homepage</a></li>
@@ -23,14 +30,15 @@
             </ul>
         </nav>
     </header>
-
-    <h1>Activities & Excursions</h1>
-    <p>Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.</p>
+    <div class="summery">
+        <h1>Activities & Excursions</h1>
+        <p>Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.</p>
+    </div>
 
     <main>
         <section id="activities">
             <h2>On-Site Activities</h2>
-            <div id="relax">
+            <div class="fun">
                 <img src="/Images/resort-2495217_1920.webp" alt="a pool in the foreground with chairs in the background">
                 <h3>Relaxation & Rejuvenation:</h3>
             <ul>
@@ -41,7 +49,7 @@
             </ul>
             </div>
     
-            <div id="adventure">
+            <div class="fun">
                 <img src="/Images/couple.webp" alt="a couple with a larger body of water in the foreground">
                 <h3>Adventure & Recreation:</h3>
             <ul>
@@ -63,7 +71,7 @@
         <section id="excursions">
             <h2>Local Excursions</h2>
             
-            <div id="explore">
+            <div class="fun">
                 <img src="/Images/coral-reef.jpg" alt="coral reef with fish">
                 <h3>Explore the Natural Beauty:</h3>
             <ul>
@@ -74,7 +82,7 @@
             </ul>
             </div>
     
-            <div id="culture">
+            <div class="fun">
                 <img src="/Images/hotel3.webp" alt="various types of homes on a rocky shore">
                 <h3>Cultural Experiences:</h3>
             <ul>
@@ -83,7 +91,7 @@
                 <li>Cultural Performance: Enjoy a captivating performance of traditional music and dance. (Evening event, fees may apply)</li>
             </div>
     
-                <div id="wildlife">
+                <div class="fun">
                     <img src="/Images/francesco-ungaro-MJ1Q7hHeGlA-unsplash.webp" alt="coral-reef with fish in the background">
                     <h3>Adventure & Wildlife:</h3>
                 <ul>

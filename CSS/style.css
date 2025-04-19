@@ -8,6 +8,15 @@ header{
     background-image: url('/Images/img.webp');
     background-repeat: no-repeat;
 }
+
+#mainweather ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
 header p{
     color: white;
 }
@@ -39,6 +48,12 @@ header nav ul li a{
  a:hover{
     color: orange;
 }
+
+.summery{
+    text-align: center;
+    margin: 1rem;
+}
+
 /*Footer CSS*/
 footer{
     background-color: rgb(0, 206, 209);
@@ -58,13 +73,18 @@ main{
     gap: 2.5rem;
     margin: 10px;
 }
-/*Accommodations CSS*/
+/*Mainpage CSS*/
 .roombox{
     background-color: aliceblue;
     padding: 1rem;
     max-width: 100% auto;
     border-radius: 1rem;
     box-shadow: 0.25rem 0.25rem 1rem;
+    text-align: center;
+}
+
+article h2{
+    text-align: center;
 }
 
 .roombox img{
