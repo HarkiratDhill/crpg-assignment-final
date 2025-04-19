@@ -13,28 +13,13 @@ section img{
 
 #rooms{
     margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
-@media screen and (min-width: 1000px) {
-    #rooms{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
-    #room{
-        grid-column: span 2;
-    }
-}
-
-@media screen and (max-width: 1000px){
-    #rooms{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-    #room{
-        grid-column: span 2;
-    }
+#room{
+    grid-column: span 2;
 }
 
 @media screen and (max-width: 740px){

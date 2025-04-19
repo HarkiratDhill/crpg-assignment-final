@@ -20,3 +20,15 @@ section img{
 #other{
     grid-column: span 2;
 }
+
+@media screen and (max-width: 750px){
+    #dining{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem;
+    }
+
+    #other{
+        grid-column: span 1;
+    }
+}
